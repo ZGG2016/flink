@@ -1,0 +1,23 @@
+提交命令 bin/flink 的说明（1.11及以上版本）：
+
+1、flink命令，后面可以跟上一些动作： run、run-application、list、stop、cancel等
+
+2、run动作：
+    1） Generic Cli模式：（-t yarn-per-job，新版本 yarn-per-job的写法）
+            -t
+            -D参数名=参数值
+            以指定yarn队列为例：
+                -Dyarn.application.queue=队列名
+    2） yarn cluster模式：（-m yarn-cluster，其实就是 yarn-per-job老版本的写法）
+            以指定yarn队列为例：
+                -yqu 指定yarn队列
+    3） default模式：（比如说 standalone模式）
+            -m 指定Jobmanager（地址：web端口） => hadoop1:8081
+
+
+3、run-application动作（Application模式）
+    指定参数，也是使用 -D参数名=参数值
+        以指定yarn队列为例：
+            -Dyarn.application.queue=队列名
+
+参数列表官网连接：https://ci.apache.org/projects/flink/flink-docs-release-1.13/deployment/config.html#yarn
