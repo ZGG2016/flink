@@ -1,1 +1,1 @@
-Apache Flink
+Flink
