@@ -1,0 +1,60 @@
+
+data> com.atguigu.networkflow_analysis.beans.ApacheLogEvent{ip='83.149.9.216', userId='-', timestamp=1431829549000, method='GET', url='/presentations/'}
+data> com.atguigu.networkflow_analysis.beans.ApacheLogEvent{ip='83.149.9.216', userId='-', timestamp=1431829550000, method='GET', url='/presentations/'}
+data> com.atguigu.networkflow_analysis.beans.ApacheLogEvent{ip='83.149.9.216', userId='-', timestamp=1431829551000, method='GET', url='/presentations/'}
+agg> PageViewCount{url='/presentations/', windowEnd=1431829550000, count=1}
+data> com.atguigu.networkflow_analysis.beans.ApacheLogEvent{ip='83.149.9.216', userId='-', timestamp=1431829552000, method='GET', url='/presentations/'}
+===================================
+窗口结束时间：2015-05-17 10:25:50.0
+NO 1: 页面URL = /presentations/ 浏览量 = 1
+===============================
+
+
+data> com.atguigu.networkflow_analysis.beans.ApacheLogEvent{ip='83.149.9.216', userId='-', timestamp=1431829546000, method='GET', url='/presentations/'}
+agg> PageViewCount{url='/presentations/', windowEnd=1431829550000, count=2}
+data> com.atguigu.networkflow_analysis.beans.ApacheLogEvent{ip='83.149.9.216', userId='-', timestamp=1431829553000, method='GET', url='/presentations/'}
+===================================
+窗口结束时间：2015-05-17 10:25:50.0
+NO 1: 页面URL = /presentations/ 浏览量 = 2
+===============================
+
+
+data> com.atguigu.networkflow_analysis.beans.ApacheLogEvent{ip='83.149.9.216', userId='-', timestamp=1431829543000, method='GET', url='/presentations/'}
+agg> PageViewCount{url='/presentations/', windowEnd=1431829550000, count=3}
+agg> PageViewCount{url='/presentations/', windowEnd=1431829545000, count=1}
+data> com.atguigu.networkflow_analysis.beans.ApacheLogEvent{ip='83.149.9.216', userId='-', timestamp=1431829547000, method='GET', url='/present'}
+agg> PageViewCount{url='/present', windowEnd=1431829550000, count=1}
+data> com.atguigu.networkflow_analysis.beans.ApacheLogEvent{ip='83.149.9.216', userId='-', timestamp=1431829554000, method='GET', url='/presentations/'}
+===================================
+窗口结束时间：2015-05-17 10:25:45.0
+NO 1: 页面URL = /presentations/ 浏览量 = 1
+===============================
+
+
+===================================
+窗口结束时间：2015-05-17 10:25:50.0
+NO 1: 页面URL = /presentations/ 浏览量 = 3
+NO 2: 页面URL = /present 浏览量 = 1
+===============================
+
+
+data> com.atguigu.networkflow_analysis.beans.ApacheLogEvent{ip='83.149.9.216', userId='-', timestamp=1431829555000, method='GET', url='/presentations/'}
+data> com.atguigu.networkflow_analysis.beans.ApacheLogEvent{ip='83.149.9.216', userId='-', timestamp=1431829556000, method='GET', url='/presentations/'}
+agg> PageViewCount{url='/presentations/', windowEnd=1431829555000, count=8}
+agg> PageViewCount{url='/present', windowEnd=1431829555000, count=1}
+data> com.atguigu.networkflow_analysis.beans.ApacheLogEvent{ip='83.149.9.216', userId='-', timestamp=1431829558000, method='GET', url='/presentations/'}
+===================================
+窗口结束时间：2015-05-17 10:25:55.0
+NO 1: 页面URL = /presentations/ 浏览量 = 8
+NO 2: 页面URL = /present 浏览量 = 1
+===============================
+
+
+data> com.atguigu.networkflow_analysis.beans.ApacheLogEvent{ip='83.149.9.216', userId='-', timestamp=1431828895000, method='GET', url='/presentations/'}
+late> com.atguigu.networkflow_analysis.beans.ApacheLogEvent{ip='83.149.9.216', userId='-', timestamp=1431828895000, method='GET', url='/presentations/'}
+data> com.atguigu.networkflow_analysis.beans.ApacheLogEvent{ip='83.149.9.216', userId='-', timestamp=1431828893000, method='GET', url='/presentations/'}
+late> com.atguigu.networkflow_analysis.beans.ApacheLogEvent{ip='83.149.9.216', userId='-', timestamp=1431828893000, method='GET', url='/presentations/'}
+data> com.atguigu.networkflow_analysis.beans.ApacheLogEvent{ip='83.149.9.216', userId='-', timestamp=1431829556000, method='GET', url='/presentations/'}
+data> com.atguigu.networkflow_analysis.beans.ApacheLogEvent{ip='83.149.9.216', userId='-', timestamp=1431828895000, method='GET', url='/presentations/'}
+late> com.atguigu.networkflow_analysis.beans.ApacheLogEvent{ip='83.149.9.216', userId='-', timestamp=1431828895000, method='GET', url='/presentations/'}
+data> com.atguigu.networkflow_analysis.beans.ApacheLogEvent{ip='83.149.9.216', userId='-', timestamp=1431829558000, method='GET', url='/presentations/'}
